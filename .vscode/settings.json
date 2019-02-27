@@ -1,0 +1,30 @@
+{
+    "pasteImage.path": "${currentFileNameWithoutExt}",
+    //截图显示的�相对路径URL
+    "pasteImage.basePath": "${currentFileDir}",
+    //分隔符标准
+    "pasteImage.forceUnixStyleSeparator": true,
+
+
+
+    // 有效的七牛 AccessKey 签名授权
+    "pasteImageToQiniu.access_key": "zgioAbOweoMTuvinPU5A0tBjROqiFPifXT2VGB6E",
+
+    // 有效的七牛 SecretKey 签名授权
+    "pasteImageToQiniu.secret_key": "JgD137bZa2V_scgbIRd-EZvFgmtDOtbXn9gjj4Oo",
+
+    // 七牛图片上传空间
+    "pasteImageToQiniu.bucket": "clogo",
+
+    // 七牛图片上传路径，参数化命名，暂时支持 ${fileName}、${mdFileName}、${date}、${dateTime}
+    // 示例：
+    //   ${fileName}-${date} -> picName-20160725.jpg
+    //   ${mdFileName}-${dateTime} -> markdownName-20170412222810.jpg
+    "pasteImageToQiniu.remotePath": "${fileName}",
+
+    // 七牛图床域名
+    "pasteImageToQiniu.domain": "http://xxxxx.xxxx.com",
+
+    // 本地储存位置
+    "pasteImageToQiniu.localPath":"./${fileName}"
+}
