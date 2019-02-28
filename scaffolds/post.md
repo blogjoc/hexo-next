@@ -2,10 +2,10 @@
 layout: posts
 title: {{ title }}
 date: {{ date }}
+update:
 copyright: true
 comments: true
 top:
-update:
 tags: 
 categories: 
 photos:
